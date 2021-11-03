@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>TP Modulo 1 Unidad 1 - Nahuelan</title>
+    </head>
+    <body>
+        <form name="form01" action="submit" onsubmit="confirmar(); return false;">
+            <div><label for="">Nombre</label>
+        <input type="text" name="nombre" id="nombre_id"> </div>
+            <div><label for="">Apellido</label>
+        <input type="text" name="apellido" id="apellido_id"> </div>
+            <div><label for="">DNI</label>
+        <input type="text" name="dni" id="dni_id"> </div>
+            <div><label for="">Email</label>
+        <input type="email" name="email" id="email_id"> </div>
+            <div><label for="">Telefono</label>
+        <input type="text" name="telefono" id="telefono_id"> </div>
+            <div><label for="">Tipo de Seguro</label>
+        <select name="tiposeguro" id="tiposeguro_id" onchange="obtenerPrecioSeguro()">
+            <option selected=true value="0">(Ninguno)</option>
+            <option value="1">Básico</option>
+            <option value="2">Intermedio</option>
+            <option value="3">Premium</option>
+        </select>
+        <label for="" id="labelPrecio"> Precio:</label>
+        <div id="precioSeguro"></div>
+
+        <span id="mensaje_error"></span>
+    </div>
+
+    <button id="confirmar_id">Confirmar</button>
+        </form>
+
+        <script src="./scripts/TP_M01_U01_script.js"></script>
+    </body>
+</html>
