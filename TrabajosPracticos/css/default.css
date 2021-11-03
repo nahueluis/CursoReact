@@ -1,0 +1,43 @@
+body {
+    background: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.regform{
+    background-color: whitesmoke;
+}
+.alertas{
+    color: red;
+}
+h1{
+    color: steelblue;
+}
+label{
+    color: steelblue;
+}
+input{
+    width: 150px;
+}
+button{
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 1px;
+    margin-right: 3px;
+    margin-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    background-color: #8ac7da;
+    background-image: none;
+    border-bottom-color: #797979;
+    border-left-color: #797979;
+    border-right-color: #797979;
+    border-top-color: #797979;
+    border-style: solid;
+    border-width: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;  
+    box-shadow: 0 2px 4px #555;  
+}
