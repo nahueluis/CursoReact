@@ -25,16 +25,16 @@ function obtenerPrecioSeguro() {
     var tipoSeguro = document.getElementById("tiposeguro_id").value
     console.log(tipoSeguro)
     switch (tipoSeguro) {
-        case "0":
+        case "1":
             var precio="$0"
             break;
-        case "1":
+        case "2":
             var precio="$500"
             break;
-        case "2":
+        case "3":
             var precio="$1000"
             break;
-        case "3":
+        case "4":
             var precio="$1500"
             break;                            
     }
