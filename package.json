@@ -1,0 +1,14 @@
+{
+    "name": "mi-proyecto", 
+    "version": "1.0.0", 
+    "scripts": { 
+      "build": "babel C:\REACT\CurdoReact\ -d lib" 
+   }, 
+"babel":{ 
+  "presets": ["es2015"] 
+}, 
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
